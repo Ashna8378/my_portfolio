@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.protfolio-container{
+    min-height: 101vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.navlist{
+    position: fixed;
+    display: flex;
+    gap: 3.4rem;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.navlist li{
+    list-style: none;
+    
+
+}
+
+.navlist li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.left-container ,.right-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+.details{
+    font-style: italic;
+}
+
+
+.left-container{
+      background: #262525 ;
+      width: 70%;
+      padding-left: 3rem;
+}
+
+.right-container{
+      background: linear-gradient(#3877ff,#262525);
+      /* background: #262525; */
+      width: 30%;
+
+}
+
+
+.content{
+    margin-left: 4rem;
+}
+
+.content .intro{
+    font-size: 1.5rem;
+    color: #FFF;
+
+}
+.content .intro span{
+    color: #5DB9EE;
+}
+.content h1{
+    font-size: 4rem;
+    color: #5DB9EE;
+}
+
+.content .details{
+    font-size: 1.1rem;
+    color: #fff;
+    max-width: 38rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+}
+
+.btn-container button{
+    border: .1rem solid #5DB9EE;
+    font-size: 1.1rem;
+    padding: .8rem  1.5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: .5s ease;
+
+}
+
+button:nth-child(1){
+    background: #5DB9EE;
+    color: #262525;
+
+
+}
+
+button:nth-child(2){
+    background: transparent;
+    color: #5DB9EE;
+    margin-left: 2rem;
+
+}
+
+button:nth-child(1):hover{
+    background: transparent;
+    color: #5DB9EE;
+}
+
+
+button:nth-child(2):hover{
+    background: #5DB9EE;
+    color: #262525;
+}
+ 
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+
+}
+
+ .circle:nth-child(1){
+    background:linear-gradient(90deg,transparent 50%,#262525) ;
+    width: 38rem;
+}
+
+.circle:nth-child(2){
+    background: black;
+    width: 30rem;
+    /* background-image: url("./WhatsApp\ Image\ 2024-01-31\ at\ 16.42.17_2098cf79.jpg"); */
+    background-size: 100%;
+    background-image: url("https://i.ibb.co/4ZdNy4Q/edit.jpg");
+    background-repeat:no-repeat;
+    
+    
+    opacity: .8 black;
+}  
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* About-section */
+
+.about{
+    width: 100%;
+    padding: 50px 0px;
+    
+    background: linear-gradient(#3877ff,#262525);
+    background-color: #0A1D56;
+}
+
+
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+button{
+    background-color: #3877ff;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid #3877ff;
+    cursor: pointer;
+}
+.btn2{
+     margin-left: 690px;
+     margin-bottom: 250px;
+}
+
+
+
+/* Our skills section start */
+
+body{
+  
+    /* background: linear-gradient(#3877ff,#262525); */
+    background-color: #0A1D56
+
+}
+ .myskill{
+    text-align: center;
+    font-size: 50px;
+
+} 
+
+h3{
+    margin: 5px;
+}
+
+.skill{
+     width: 500px;
+     margin: 60px auto;
+     color: #fff;
+     padding: 20px;
+     box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+     
+     background: linear-gradient(#3877ff,#262525);
+     border-radius: 10px;
+
+}
+
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+
+} 
+
+.bar{
+    /* background: #353b48; */
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    /* border-radius: 10px; */
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 10px 10px rgba(0,0,0,0.24);
+
+}
+
+
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.bar span{
+    height: 20px;
+    float: left;
+    /* background: linear-gradient(#3877ff,#262525); */
+    background: #5DB9EE;
+}
+
+.html{
+    width: 80%;
+    animation: html 3s;
+
+}
+
+.css{
+    width: 70%;
+    animation: css 3s;
+
+}
+.python{
+    width: 60%;
+    animation: python 3s;
+}
+
+.javascript{
+    width: 70%;
+    animation: html 3s;
+
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+/* contact us section start */
+
+
+section {
+    padding: 40px 15px;
+}
+
+.contact {
+    background: linear-gradient(#3877ff, #262525);
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-form {
+    width: 30%;
+               /* Adjust this value based on your design */
+}
+
+.contact-form h1 {
+    font-size: 80px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact-form p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 1.1rem;
+    margin-bottom: 3.8rem;
+}
+
+.contact-form form {
+    position: relative;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background: white;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 200px;
+}
+
+.contact-form form .btn {
+    display: inline-block;
+    background: #3877ff;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 200px;
+    transition: ease 0.20s;
+    cursor: pointer;
+}
+
+.contact-form form .btn:hover {
+    border: 2px solid blue;
+    color: white;
+    background: transparent;
+    transform: scale(1.1);
+}
